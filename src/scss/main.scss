@@ -1,13 +1,15 @@
 @import "~normalize.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Raleway:wght@100;400;700&display=swap');
+
 @import "_variables";
-@import "modules/hello.scss";
 
 body {
-  background: $wtf;
+  background: #E6E7EB;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: 'Open Sans';
 }
