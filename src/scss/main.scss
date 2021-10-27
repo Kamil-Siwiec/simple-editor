@@ -17,11 +17,19 @@ body {
 .editor {
   width: 100%;
   max-width: 736px;
+  &__header {
+    font-size: 44px;
+    margin: 0 0 40px;
+  }
 }
 
 .form {
   &__textarea {
     width: 100%;
+    font-size: 14px;
     min-height: 240px;
+    padding: 16px;
+    border: 1px solid #A1A4B1;
+    border-radius: 4px;
   }
 }
