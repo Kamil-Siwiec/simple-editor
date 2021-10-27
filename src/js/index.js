@@ -13,10 +13,22 @@ const save = document.querySelector('.save--js');
 const load = document.querySelector('.load--js');
 const clear = document.querySelector('.clear--js');
 
+const currentValue = localStorage.getItem('entry');
+
+if (currentValue) {
+    document.querySelector('.info--js').innerHTML = 'ℹ️';
+}
+
+
 
 save.addEventListener('click', (e) => {
     e.preventDefault();
  localStorage.setItem('entry', textarea.value);
+ if (textarea.value) {
+    document.querySelector('.info--js').innerHTML = 'ℹ️';
+ } else {
+    document.querySelector('.info--js').innerHTML = '';
+ }
 })
 
 load.addEventListener('click', (e) => {
