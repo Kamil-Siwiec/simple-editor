@@ -13,3 +13,15 @@ body {
   min-height: 100vh;
   font-family: 'Open Sans';
 }
+
+.editor {
+  width: 100%;
+  max-width: 736px;
+}
+
+.form {
+  &__textarea {
+    width: 100%;
+    min-height: 240px;
+  }
+}
