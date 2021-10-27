@@ -12,3 +12,12 @@ const textarea = document.querySelector('.textarea--js');
 const save = document.querySelector('.load--js');
 const load = document.querySelector('.save--js');
 const clear = document.querySelector('.clear--js');
+
+
+save.addEventListener('click', (e) => {
+ localStorage.setItem('entry', textarea.value);
+})
+
+load.addEventListener('click', (e) => {
+    textarea.value = localStorage.getItem('entry');
+})
