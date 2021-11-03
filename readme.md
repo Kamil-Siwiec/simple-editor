@@ -1,8 +1,19 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://kamil-siwiec.github.io/simple-editor/editor.png)
 
-# WTF Webpack Starter Kit 
+# Simple Editor 
 
-Simple toolkit for your static websites development.
+Simple notes editor where you can write down your thoughts,
+save them and load again.
+See the live view here [simple-editor](https://kamil-siwiec.github.io/simple-editor/)
+
+## Technologies and tools used:
+
+- HTML5, CSS3, SCSS, Flex
+- JavaScript, ES6 
+- NPM, Webpack
+
+## Screenthots:
+![simple-editor](https://kamil-siwiec.github.io/simple-editor/editorss.png)
 
 ## How to use it?
 
