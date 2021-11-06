@@ -12,7 +12,7 @@ See the live view here [simple-editor](https://kamil-siwiec.github.io/simple-edi
 - JavaScript, ES6 
 - NPM, Webpack
 
-## Screenthots:
+## Screenshots:
 ![simple-editor](https://kamil-siwiec.github.io/simple-editor/editorss.png)
 
 ## How to use it?
