@@ -8,8 +8,9 @@ See the live view here [simple-editor](https://kamil-siwiec.github.io/simple-edi
 
 ## Technologies and tools used:
 
-- HTML5, CSS3, SCSS, Flex
-- JavaScript, ES6 
+- HTML5, CSS3, SCSS,
+- CSS Flexbox
+- JavaScript, ES6,
 - NPM, Webpack
 
 ## Screenshots:
